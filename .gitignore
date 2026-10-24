@@ -1,0 +1,31 @@
+# ---- data & experiment outputs (never commit) ----
+dataset/
+logs/
+results/
+checkpoints/
+test_results/
+fig/
+*.pth
+*.pt
+*.npy
+*.tar.gz
+*.zip
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- local / temporary ----
+*.bak_*
+*_bak_*/
+scratch/
+tmp/
